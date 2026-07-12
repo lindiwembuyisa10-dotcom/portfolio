@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'EuropaNuova-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('EuropaNuova-Bold'), url(/Fonts/EuropaWOFF/EuropaNuovaBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'EuropaNuova-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('EuropaNuova-Regular'), url(/Fonts/EuropaWOFF/EuropaNuovaRegular.woff) format('woff');
+}
+
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    cursor: url("Images/Select.png"), auto;
+	font-family: 'EuropaNuova-Bold';
+
+}
+
+body{
+    background-color: #040404;
+    
+    
+    
+}
+ #about{
+	color: white;
+	font-size: 1.5em;
+}
+
+p{
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: #F487A4;
+	cursor: url("Images/Pointer.png"), auto;
+
+}
+
