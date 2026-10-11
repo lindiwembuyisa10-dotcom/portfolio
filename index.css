@@ -22,21 +22,33 @@
 
 body{
     background-color: #040404;
-    
-    
+    color: #FCFCF2;
     
 }
- #about{
-	color: white;
-	font-size: 1.5em;
+
+/*About-Section*/
+.about{
+	color: #FCFCF2;
+	font-size: 1.6em;
+}
+
+/*Contact-Section*/
+.contact {
+    display: flex;
+    padding-left: 12px;
+    gap: 0.4em;
+}
+
+.link {
+    flex: 1;
 }
 
 p{
-	color: white;
+	color: #FCFCF2;
 }
 
 a{
-	color: white;
+	color: #FCFCF2;
 }
 
 a:hover{
@@ -44,4 +56,51 @@ a:hover{
 	cursor: url("Images/Pointer.png"), auto;
 
 }
+/*Projects-Section*/
+.project-container{
+    font-size: 1.2em;
+    display: flex;
+    padding-left: 12px;
+    gap: 0.4em;
+    
 
+}
+.project-title{
+    font-size:1em;
+    flex : 1;
+    padding-left: 12px;
+}
+
+/*footer*/
+
+
+.footer{
+    position: fixed;
+    left: 12px;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.last-update {
+    font-size: 14px;
+}
+.copyright{
+    font-size: 14px;
+}
+/*mobile*/
+@media (max-width: 575.98px){
+    
+}
+/*tablet*/
+@media (min-width:768px) and (max-width: 991.98px){
+    
+}
+/*desktop*/
+@media (min-width:992px) and (max-width: 1199.98px){
+    
+}
+/*other*/
+@media (max-width: 1200px){
+    
+}
