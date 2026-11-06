@@ -1,3 +1,5 @@
+/*css-stylesheet*/
+
 @font-face {
     font-family: 'EuropaNuova-Bold';
     font-style: normal;
@@ -29,13 +31,14 @@ body{
 /*About-Section*/
 .about{
 	color: #FCFCF2;
-	font-size: 1.6em;
+	font-size: 1.5em;
 }
 
 /*Contact-Section*/
 .contact {
     display: flex;
-    padding-left: 12px;
+    padding-top: 2px;
+    padding-left: 2px;
     gap: 0.4em;
 }
 
@@ -70,37 +73,27 @@ a:hover{
     flex : 1;
     padding-left: 12px;
 }
+.project-link{
+    text-decoration: none;
+}
 
 /*footer*/
 
 
 .footer{
     position: fixed;
-    left: 12px;
+    left: 2px;
     bottom: 0;
     width: 100%;
     margin: 0;
 }
 
 .last-update {
-    font-size: 14px;
+    font-size: 0.9em;
 }
 .copyright{
-    font-size: 14px;
+    font-size: 0.9em;
 }
-/*mobile*/
-@media (max-width: 575.98px){
-    
-}
-/*tablet*/
-@media (min-width:768px) and (max-width: 991.98px){
-    
-}
-/*desktop*/
-@media (min-width:992px) and (max-width: 1199.98px){
-    
-}
-/*other*/
-@media (max-width: 1200px){
-    
-}
+
+
+
