@@ -25,23 +25,27 @@
 body{
     background-color: #040404;
     color: #FCFCF2;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
     
 }
+
+
 
 /*About-Section*/
 .about{
 	color: #FCFCF2;
-	font-size: 1.5em;
+	font-size: 1.2rem;
+    padding-top: 0.5rem;
 }
 
 /*Contact-Section*/
 .contact {
     display: flex;
+    font-size: 1rem;
     padding-top: 2px;
     padding-left: 2px;
-    gap: 0.4em;
+    gap: 0.4rem;
 }
 
 .link {
@@ -63,14 +67,14 @@ a:hover{
 }
 /*Projects-Section*/
 .project-container{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     display: flex;
-    gap: 0.4em;
+    gap: 0.4rem;
     
 
 }
 .project-title{
-    font-size:1em;
+    font-size:1rem;
     flex : 1;
 
 }
@@ -89,11 +93,78 @@ a:hover{
 }
 
 .last-update {
-    font-size: 0.9em;
+    font-size: 1rem;
 }
-.copyright{
-    font-size: 0.9em;
+
+/*desktop*/
+@media (min-width: 1281px) {
+    /*About-Section*/
+.about{
+	color: #FCFCF2;
+	font-size: 1.5rem;
 }
+
+/*Contact-Section*/
+.contact {
+    display: flex;
+    padding-top: 2px;
+    padding-left: 2px;
+    gap: 0.4rem;
+}
+
+.link {
+    flex: 1;
+}
+
+p{
+	color: #FCFCF2;
+}
+
+a{
+	color: #FCFCF2;
+}
+
+a:hover{
+	color: #F487A4;
+	cursor: url("Images/Pointer.png"), auto;
+
+}
+/*Projects-Section*/
+.project-container{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+    
+
+}
+.project-title{
+    font-size:1rem;
+    flex : 1;
+
+}
+.project-link{
+    text-decoration: none;
+}
+
+/*footer*/
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.last-update {
+    font-size: 1rem;
+}
+    
+}
+
+
+
+
 
 
 
