@@ -1,4 +1,5 @@
 /*css-stylesheet*/
+/*media queries code reference: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488*/
 /*MOBILE-FOCUSED*/
 
 @font-face {
@@ -6,13 +7,19 @@
     font-style: normal;
     font-weight: normal;
     src: local('EuropaNuova-Bold'), url(/Fonts/EuropaWOFF/EuropaNuovaBold.woff) format('woff');
+    src:  url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff")format("woff");
 }
 @font-face {
     font-family: 'EuropaNuova-Regular';
     font-style: normal;
     font-weight: normal;
     src: local('EuropaNuova-Regular'), url(/Fonts/EuropaWOFF/EuropaNuovaRegular.woff) format('woff');
+    src: url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff")format("woff");
 }
+
+
 
 *{ 
 	margin: 0;
@@ -97,6 +104,13 @@ a:hover{
     font-size: 1rem;
 }
 
+/*BETWEEN MOBILE AND TABLET */
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
 /*TABLET*/
 @media (min-width: 768px) and (max-width: 1024px) {
     
@@ -165,6 +179,14 @@ a:hover{
 }
 
 }
+
+/*TABLET + ORIENTATION */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
 
 /*LAPTOP */
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -237,7 +259,7 @@ a:hover{
 
 /*DESKTOP*/
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1281px) {
     /*About-Section*/
 .about{
 	color: #FCFCF2;
