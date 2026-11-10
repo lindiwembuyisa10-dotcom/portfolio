@@ -7,18 +7,24 @@
     font-style: normal;
     font-weight: normal;
     src: local('EuropaNuova-Bold'), url(/Fonts/EuropaWOFF/EuropaNuovaBold.woff) format('woff');
-    src:  url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff")format("woff");
+    
 }
 @font-face {
     font-family: 'EuropaNuova-Regular';
     font-style: normal;
     font-weight: normal;
     src: local('EuropaNuova-Regular'), url(/Fonts/EuropaWOFF/EuropaNuovaRegular.woff) format('woff');
-    src: url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff")format("woff");
+    
 }
-
+@font-face {
+    font-family: "Europa Nuova Bold";
+    src: url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.eot");
+    src: url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.svg#Europa Nuova Bold")format("svg");
+}
 
 
 *{ 
@@ -26,7 +32,7 @@
 	padding: 0;
 	box-sizing: border-box;
     cursor: url("Images/Select.png"), auto;
-	font-family: 'EuropaNuova-Bold';
+	font-family: 'Europa Nuova Bold';
 
 }
 
