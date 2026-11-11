@@ -3,20 +3,6 @@
 /*MOBILE-FOCUSED*/
 
 @font-face {
-    font-family: 'EuropaNuova-Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('EuropaNuova-Bold'), url(/Fonts/EuropaWOFF/EuropaNuovaBold.woff) format('woff');
-    
-}
-@font-face {
-    font-family: 'EuropaNuova-Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('EuropaNuova-Regular'), url(/Fonts/EuropaWOFF/EuropaNuovaRegular.woff) format('woff');
-    
-}
-@font-face {
     font-family: "Europa Nuova Bold";
     src: url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.eot");
     src: url("https://db.onlinewebfonts.com/t/c5fd0c61946281161e63ad9687a5b5d4.eot?#iefix")format("embedded-opentype"),
@@ -43,8 +29,6 @@ body{
     padding-right: 0.6rem;
     
 }
-
-
 
 /*About-Section*/
 .about{
@@ -101,6 +85,82 @@ a:hover{
 
 .footer{
     position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.last-update {
+    font-size: 0.9rem;
+}
+.copyright{
+    font-size: 0.9rem;
+}
+
+
+/*BETWEEN MOBILE AND TABLET */
+@media (min-width: 481px) and (max-width: 767px) {
+/*About-Section*/
+.about{
+	color: #FCFCF2;
+	font-size: 1.3rem;
+    padding-top: 0.5rem;
+}
+
+/*Contact-Section*/
+.contact {
+    display: flex;
+    font-size: 1.1rem;
+    padding-top: 2px;
+    padding-left: 2px;
+    gap: 0.4rem;
+}
+
+.link {
+    flex: 1;
+}
+
+p{
+	color: #FCFCF2;
+}
+
+a{
+	color: #FCFCF2;
+}
+
+a:hover{
+	color: #F487A4;
+	cursor: url("Images/Pointer.png"), auto;
+
+}
+/*Projects-Section*/
+.project-container{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 0.4rem;
+    
+
+}
+.project-title{
+    font-size:1.1rem;
+    flex : 1;
+
+}
+.project-link{
+    text-decoration: none;
+}
+
+/*footer*/
+
+
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
     bottom: 0;
     width: 100%;
     margin: 0;
@@ -109,12 +169,9 @@ a:hover{
 .last-update {
     font-size: 1rem;
 }
-
-/*BETWEEN MOBILE AND TABLET */
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-  
+.copyright{
+    font-size: 1rem;
+}
 }
 
 /*TABLET*/
@@ -124,13 +181,13 @@ a:hover{
 .about{
 	color: #FCFCF2;
 	font-size: 1.4rem;
-    padding-top: 0;
+    padding-top: 0.5rem;
 }
 
 /*Contact-Section*/
 .contact {
     display: flex;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-top: 2px;
     padding-left: 2px;
     gap: 0.4rem;
@@ -162,7 +219,7 @@ a:hover{
 
 }
 .project-title{
-    font-size:1.1rem;
+    font-size:1.2rem;
     flex : 1;
 
 }
@@ -174,34 +231,33 @@ a:hover{
 
 
 .footer{
-    position: fixed;
+   position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
     bottom: 0;
     width: 100%;
     margin: 0;
 }
 
 .last-update {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
+.copyright{
+    font-size: 1rem;
+}
+
 
 }
 
 /*TABLET + ORIENTATION */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  
-  
-}
-
-
-/*LAPTOP */
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
   /*About-Section*/
 .about{
 	color: #FCFCF2;
 	font-size: 1.4rem;
-    padding-top: 0;
+    padding-top: 0.5rem;
 }
 
 /*Contact-Section*/
@@ -252,21 +308,28 @@ a:hover{
 
 .footer{
     position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
     bottom: 0;
     width: 100%;
     margin: 0;
 }
 
 .last-update {
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+.copyright{
+    font-size: 1rem;
 }
   
 }
 
-/*DESKTOP*/
 
-@media screen and (min-width:1281px) {
-    /*About-Section*/
+/*LAPTOP */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /*About-Section*/
 .about{
 	color: #FCFCF2;
 	font-size: 1.5rem;
@@ -276,7 +339,7 @@ a:hover{
 /*Contact-Section*/
 .contact {
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-top: 2px;
     padding-left: 2px;
     gap: 0.4rem;
@@ -308,11 +371,89 @@ a:hover{
 
 }
 .project-title{
-    font-size:1.2rem;
+    font-size:1.3rem;
     flex : 1;
 
 }
+.project-link{
+    text-decoration: none;
+}
+
+/*footer*/
 
 
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.last-update {
+    font-size: 1.2rem;
+}
+.copyright{
+    font-size: 1.2rem;
+}
+
+  
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width:1281px) {
+    /*About-Section*/
+.about{
+	color: #FCFCF2;
+	font-size: 1.6rem;
+    padding-top: 0;
+}
+
+/*Contact-Section*/
+.contact {
+    display: flex;
+    font-size: 1.4rem;
+    padding-top: 2px;
+    padding-left: 2px;
+    gap: 0.4rem;
+}
+
+.link {
+    flex: 1;
+}
+
+p{
+	color: #FCFCF2;
+}
+
+a{
+	color: #FCFCF2;
+}
+
+a:hover{
+	color: #F487A4;
+	cursor: url("Images/Pointer.png"), auto;
+
+}
+/*Projects-Section*/
+.project-container{
+    font-size: 1.6rem;
+    display: flex;
+    gap: 0.4rem;
+    
+
+}
+.project-title{
+    font-size:1.4rem;
+    flex : 1;
+
+}
+.last-update {
+    font-size: 1rem;
+}
+.copyright{
+    font-size: 1rem;
+}
+  
 }
 
